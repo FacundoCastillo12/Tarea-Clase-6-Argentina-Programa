@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea 1 Clase 6</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body>
+    <form>
+        <div> 
+            <label for="cantidad-miembros">Ingrese la cantidad de miembros del grupo familiar</label>
+            <input type="number" id="cantidad-miembros"/>
+            <button type="submit" id="ingresar-datos">Ingresar</button>
+        </div>
+    </form>
+    <form>
+        <div id="edades">
+
+        </div>
+    </form>
+    <div> 
+        <button type="submit" id="calcular" hidden>Calcular</button>
+    </div>
+    <div id="resultado" hidden>
+            <p>La edad mayor es: <strong id="edad-mayor"></strong></p>
+            <p>La menor edad es: <strong id="edad-menor"></strong></p>
+            <p>La edad promedio es: <strong id="edad-promedio"></strong></p>
+    </div>
+    <div>
+        <button type="submit" id="reiniciar">Reiniciar</button>
+    </div>
+    <script type="text/javascript" src="tarea1.js"></script>
+</body>
+</html>
